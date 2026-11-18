@@ -7,20 +7,18 @@ This repository contains code and data for an assignment in the **Tools for Rese
 | File | Description |
 | --- | --- |
 | `Survey_ Studying impact of LLM usage on student's learning.xlsx` | Original survey export. Keep this as the source copy. |
-| `preprocess_survey.py` | Simple Python script for cleaning the workbook. |
 | `preprocess_survey_colab.ipynb` | Google Colab notebook that uploads the original workbook, cleans it, and downloads `cleaned_survey_data.xlsx`. |
-| `cleaned_survey_data.xlsx` | Cleaned survey data used by the analysis notebook. |
 | `survey_analysis_colab.ipynb` | Google Colab notebook with descriptive statistics, Matplotlib charts, and a Spearman correlation analysis. |
 
 ## Dataset
 
-The dataset contains Google Forms responses about AI/LLM use, study habits, perceived effects on learning, and related concerns. The original export includes response metadata and survey answers. Some questions use ordered response scales, such as frequency or perceived impact.
+The dataset contains Microsoft Forms responses about AI/LLM use, study habits, perceived effects on learning, and related concerns. The original export includes response metadata and survey answers. Some questions use ordered response scales, such as frequency or perceived impact.
 
 The current cleaned workbook contains 10 responses. Results from this small sample are exploratory and may not represent a larger student population.
 
 ## Preprocessing
 
-The preprocessing script and notebook:
+The preprocessing notebook:
 
 - Trim spaces from column names and text responses.
 - Treat common text markers such as `N/A` and `-` as missing values.
@@ -69,4 +67,4 @@ The script writes `cleaned_survey_data.xlsx` in the project folder.
 
 ## Privacy
 
-Survey exports can contain names, email addresses, timestamps, or other identifying information. Before making this repository public, confirm that sharing the raw and cleaned responses is allowed, remove identifying information where appropriate, and follow the consent terms for the survey. The cleaning workflow leaves text fields blank when missing; it does not remove identifying columns that already contain data.
+Identifying details were removed from Survey_ Studying impact of LLM usage on student's learning.xlsx before the workbook was added to this repository. Please follow the survey's consent terms when sharing or reusing its responses.
