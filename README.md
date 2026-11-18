@@ -1,6 +1,6 @@
 # Student LLM Usage and Learning Survey
 
-This repository contains code and data for an assignment in the **Tools for Research** course, part of the **M.Sc. Computer Science** program (2026). It uses a Microsoft Forms survey to explore students’ use of large language models (LLMs) and learning, with beginner-friendly Python workflows for preprocessing and analysis.
+This repository contains code and data for an assignment in the **Tools for Research** course, part of the **M.Sc. Computer Science** program (2026). It uses a Microsoft Forms survey to explore students’ use of large language models (LLMs) and learning, with Python workflows for preprocessing and analysis.
 
 ## Project files
 
